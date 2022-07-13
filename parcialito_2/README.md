@@ -10,7 +10,7 @@ Nuevamente, considerando [esta red que representa las conexiones de diferentes p
 1. [Notebook ejercicio 1](notebooks/ejercicio_1.ipynb)
 > a. Obtener una visualización de las comunidades presentes en dicha red (indicando el algoritmo utilizado). 
 
-![Comunidades](/media/world_communities_louvain.png)
+![Comunidades](media/world_communities_louvain.png)
 
 > b. Considerando lo que respondiste en el parcialito 1 (ejercicio 2):      
 >  * Si mencionaste que había homofilia, ¿corresponde por el mismo tipo que mencionaste anteriormente? ¿por qué?    
@@ -20,7 +20,7 @@ Es el mimsmo tipo de homofilia que se mencionó en el parcialito 1. En el parcia
 
 > c. Obtener los nodos correspondientes a una de las subredes (con al menos 20% de los nodos), y realizar una visualización de las sub-comunidades presentes.
 
-![Sub-Comunidades](/media/sub_graph_communities_louvain.png)
+![Sub-Comunidades](media/sub_graph_communities_louvain.png)
 
 Observamos que siguen habiendo communidades por ubicación geografica. La comunidad más grande que había era la de Asia-Oceanía, con este nuevo subgrafo observamos comunidades también por ubicación gegrafica. Principalmente entre Oceanía y Asia, y luego dentro de Asia entre las diferentes regiones del continente. 
 
@@ -43,7 +43,7 @@ Calculo de los motifs del subgrafo 1.c:
  
 > b. Calcular el promedio y desvío estandar de los motifs de una red de baseline. Calcular el significant profile de la red, y hacer un gráfico.
 
-![Sub-Comunidades](/media/significant_profile.png)
+![Sub-Comunidades](media/significant_profile.png)
 
 > c. Intentar dar con una explicación del resultado obtenido en el punto anterior [+1 punto].
 
@@ -55,7 +55,7 @@ Claramente hay varios subgrafos que se mantienen poco semejante a lo esperado. H
    
     Detectar los roles en dicha red utilizando el algoritmo RolX, explicando el resultado obtenido.
 
-![Sub-Comunidades](/media/roles.png)
+![Sub-Comunidades](media/roles.png)
 
 Roles       | Promedio Grados | Promedio Centralidad | Países
 ------------|-----------------|---------------------|---------
